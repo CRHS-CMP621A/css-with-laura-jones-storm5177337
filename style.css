@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+.related-post {
+    list-style:none;
+}
+
+article ul li:nth-child(odd) {
+    font-weight: bold;
+}
+
+a:link {
+    color: palegoldenrod;
+}
+
+a:visited {
+    color: rgb(30, 102, 78);
+}
+
+a:hover {
+    color: rgb(128, 161, 85);
+}
+
+a:active {
+    color: rebeccapurple;
+}
