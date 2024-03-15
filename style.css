@@ -25,3 +25,24 @@ a:hover {
 a:active {
     color: rebeccapurple;
 }
+
+aside {
+    background-color: lightgray;
+    padding: 40px;
+    border-top: 15px solid lightblue;
+    border-bottom: 15px solid lightblue
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 17px;
+    right: 17px;
+}
