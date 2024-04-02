@@ -8,31 +8,41 @@
     <style>
         .el--1 {
             background-color: blueviolet;
+            grid-column: 2 / 3;
+            align-self: start;
         }
 
         .el--2 {
             background-color: orangered;
+            grid-column: 3 / 4;
         }
 
         .el--3 {
             background-color: green;
             height: 150px;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
         }
 
         .el--4 {
             background-color: goldenrod;
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
         }
 
         .el--5 {
             background-color: palevioletred;
+            grid-column: 2 / 4;
         }
 
         .el--6 {
             background-color: steelblue;
+            grid-row: 4 / 5;
         }
 
         .el--7 {
             background-color: yellow;
+            grid-row: 1 / 4;
         }
 
         .el--8 {
@@ -47,7 +57,9 @@
             margin: 40px;
 
             /* CSS GRID */
-
+            display: none;
+            grid-template-columns: 2fr 2fr 1fr;
+            grid-template-rows: 1fr 2fr 3fr 1fr;
         }
 
         .container--2 {
@@ -63,6 +75,9 @@
             display: none;
 
             /* CSS GRID */
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr;
+            grid-template-rows: 1fr 2fr 3fr 1fr;
         }
     </style>
 </head>
